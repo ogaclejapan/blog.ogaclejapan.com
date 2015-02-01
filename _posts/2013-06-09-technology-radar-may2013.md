@@ -40,7 +40,7 @@ Radarでは大きく以下の４部門に分けて、それぞれの技術動向
 
 ## Techniques部門の技術動向
 
-◎〜Adopt〜◎
+### Adopt
 
 * Aggregates as documents: _ドキュメントを集約すべき_  
  →GitHubのmarkdownみたいな関係ことかなー？？
@@ -61,7 +61,7 @@ Radarでは大きく以下の４部門に分けて、それぞれの技術動向
 
 ## Tools部門の技術動向
 
-◎〜Adopt〜◎
+### Adopt
 
 * [D3](http://d3js.org/)
 * Embedded servlet containers
@@ -74,7 +74,7 @@ Radarでは大きく以下の４部門に分けて、それぞれの技術動向
 
 ## Platforms部門の技術動向
 
-◎〜Adopt〜◎
+### Adopt
 
 * [Elastic Search](http://www.elasticsearch.org/)
 * [MongoDB](http://www.mongodb.org/)
@@ -84,7 +84,7 @@ Radarでは大きく以下の４部門に分けて、それぞれの技術動向
 
 ## Language & Frameworks部門の技術動向
 
-◎〜Adopt〜◎
+### Adopt
 
 * [Clojure](http://clojure.org/)
 * CSS frameworks

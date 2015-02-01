@@ -131,7 +131,7 @@ _(※1)依存させた具象タスクをすべて実行できるフック的な�
 * check　testコードに対してJUnitを実行する
 
 
-### ＜Buildタスク＞
+### Buildタスク
 
 androidプラグインではassembleタスクを環境毎に細分化したanchorタスクを用意している。
 
@@ -141,7 +141,7 @@ androidプラグインではassembleタスクを環境毎に細分化したancho
 * assembleTest　test環境用の成果物を生成する
 
 
-### ＜Verificationタスク＞
+### Verificationタスク
 
 androidプラグインではcheckタスクに加えて、２つほど新たにanchorタスクを定義している。
 
@@ -166,7 +166,7 @@ deviceCheckタスク:
 * connectedInstrumentTest
 
 
-### ＜Installタスク＞
+### Installタスク
 
 androidプラグインには成果物として生成されたapkを端末に導入するinstall/uninstallタスクも存在する。  
 このタスクは環境毎(debug, release, test)のビルドをサポートしている。
@@ -175,7 +175,7 @@ androidプラグインには成果物として生成されたapkを端末に導�
 * uninstall{Debug/Release/Test}
 
 
-### ＜Gradle標準タスク＞
+### Gradle標準タスク
 
 Gradleでは利用可能なタスクをtasksコマンドでいつでも確認できる。
 

@@ -6,35 +6,35 @@ tags : [android]
 
 AndroidのJUnitテストをコマンドラインから実行する方法を忘れぬうちにメモしておく。
 
-## すべてのテストケースをテストする場合
+### すべてのテストケースをテストする場合
 
 {% highlight bash %}
 # testプロジェクトのパッケージが「com.ogaclejapan.myproject.test」だった場合
 adb shell am instrument -w com.ogaclejapan.myproject.test/android.test.InstrumentationTestRunner
 {% endhighlight %}
 
-## 特定のテストケースをテストする場合
+### 特定のテストケースをテストする場合
 
 {% highlight bash %}
 # テストクラスの名前が「com.ogaclejapan.myproject.test.MyTestCase」だった場合
 adb shell am instrument -w -e class com.ogaclejapan.myproject.test.MyTestCase com.ogaclejapan.myproject.test/android.test.InstrumentationTestRunner
 {% endhighlight %}
 
-## 特定の1メソッドのみテストする場合
+### 特定の1メソッドのみテストする場合
 
 {% highlight bash %}
 # 1メソッドの名前が「com.ogaclejapan.myproject.test.MyTestCase#testMyMethod」だった場合
 adb shell am instrument -w -e class com.ogaclejapan.myproject.test.MyTestCase\#testMyMethod com.ogaclejapan.myproject.test/android.test.InstrumentationTestRunner
 {% endhighlight %}
 
-## 特定カテゴリーのみテストする場合
+### 特定カテゴリーのみテストする場合
 
 {% highlight bash %}
 # @SmallTestアノテーションをついてるテストメソッドのみの場合
 adb shell am instrument -w -e size small com.ogaclejapan.myproject.test/android.test.InstrumentationTestRunner
 {% endhighlight %}
 
-## 独自アノテーションを付与したカテゴリーのみテストする場合
+### 独自アノテーションを付与したカテゴリーのみテストする場合
 
 まず、独自アノテーションを定義する
 

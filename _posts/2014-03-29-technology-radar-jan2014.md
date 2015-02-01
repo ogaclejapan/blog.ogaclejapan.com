@@ -46,33 +46,33 @@ http://www.thoughtworks.com/radar/#/techniques
 
 ADOPTに入ったのは次の５つ。
 
-> **Capturing client-side JavaScript errors**
+### Capturing client-side JavaScript errors
 
 `New Relic`のようなツールを使い、
 ユーザ影響を及ぼすクライアントサイドのJavaScriptエラーを検知できる仕組みを導入する。
 
 * [VOYAGE GROUP　エンジニアブログ New Relicのなかなか凄い新機能を試してみた][tech-ref1]
 
-> **Continuous delivery for mobile devices**
+### Continuous delivery for mobile devices
 
 ビルドやテストを`xctool`や`Travis-CI`などで自動化し、モバイル端末上からビルド済みアプリを取得できるようにする。
 
 * [Xcodeと自動化 - Qiita][tech-ref2]
 
-> **Mobile testing on mobile networks**
+### Mobile testing on mobile networks
 
 モバイル端末の動作確認はちゃんと3G回線／LTE回線と同等の速度環境で実施する。
 
 * [Webページを表示するテストの際に、通信速度を3Gに制限して表示してみよう - YoheiM .NET][tech-ref3]
 
-> **Segregated DOM plus node for JS Testing**
+### Segregated DOM plus node for JS Testing
 
 これはあまりよく分からないが、jQueryでDOMを直接操作するのはカオスになるから`AngularJS`がよいと聞いたことがある。  
 とりあえずマーチンファウラーさんがブログで書いた記事が見つかった。
 
 * [SegregatedDOM][tech-ref4]
 
-> **Windows infrastructure automation**
+### Windows infrastructure automation
 
 `Powershell`と組み合わせることで`Chef`や`Puppet`がWindows上でも動作するのでインフラ環境を自動化する。
 
@@ -84,13 +84,13 @@ http://www.thoughtworks.com/radar/#/tools
 
 ADOPTに入ったのは次の２つ。
 
-> **D3**
+### D3
 
 オライリー本も出てるくらい有名なデータ可視化ライブラリ。
 
 * [「D3.js」を使ったデータビジュアライゼーション : CodeZine][tools-ref1]
 
-> **Dependency management for JavaScript**
+### Dependency management for JavaScript
 
 JavaScriptの依存するライブラリを一元管理する。Twitter社の`Bower`とか？
 
@@ -102,42 +102,42 @@ http://www.thoughtworks.com/radar/#/platforms
 
 ADOPTに入ったのは次の５つ。
 
-> **Elastic Search**
+### Elastic Search
 
 検索プラットフォーム。  
 ログ解析とか全文検索とか大抵Elastic Searchが一緒に現れる。
 
 * [ElasticSearch+Kibanaでログデータの検索と視覚化を実現するテクニックと運用ノウハウ][platforms-ref1]
 
-> **MongoDB**
+### MongoDB
 
 ドキュメント指向データベース。  
 JSON形式なのでNode.jsのバックエンドとしてよく使われているような気がする。
 
 * [噂のMongoDBその用途は？][platforms-ref2]
 
-> **Neo4J**
+### Neo4J
 
 グラフ指向データベース。  
 これ使えばフォロー関係とか、2ホップ以内のフォローしてないユーザ抽出とかいい感じで処理できるんだろうなーと思っている。
 
 * [グラフDBのNeo4jを1日触ってみた - Wantedly Engineer Blog][platforms-ref3]
 
-> **Node.js**
+### Node.js
 
 ノンブロッキングIOで大量リクエストを捌けるサーバサイドJavaScript。  
 最近だと`rubygems`みたいに`npm`を使うためだけにインストールする機会も増えてきた気がする。
 
 * [Node.js を選ぶとき 選ばないとき][platforms-ref4]
 
-> **Redis**
+### Redis
 
 永続化機能をもつインメモリ型キーバリューストア。  
 ランキングは作れるし、リストやセットも便利だし、キャッシュしても使えるし、個人的にはほんと使えるやつという印象;
 
 * [ニコニコ生放送に見る Redis 活用ノウハウ：特集｜gihyo.jp][platforms-ref5]
 
-> **SMS and USSD as a UI**
+### SMS and USSD as a UI
 
 ほとんどのモバイル端末がSMSまたはUSSDに対応しているからメッセージング手段として使う価値あるということかな、、これもよく分からんw  
 
@@ -147,14 +147,14 @@ http://www.thoughtworks.com/radar/#/languages-and-frameworks
 
 ADOPTに入ったのは次の4つ。
 
-> **Clojure**
+### Clojure
 
 Javaで書かれたLisp系の関数型プログラミング言語。  
 全く活用事例を見たことないな、、前回もADOPTに含まれてたから何かの分野ではきっと凄いんだろうね…
 
 * [イミュータブル時代の言語としてのClojure][lang-ref1]
 
-> **Dropwizard**
+### Dropwizard
 
 アプリケーションサーバ不要な軽量フルスタックJavaフレームワーク？？的なもの。  
 Springも同じような仕組みで`SpringBoot`を昨年発表したし、来年あたり本格的に流行出しそうな感じするねー  
@@ -162,7 +162,7 @@ Springも同じような仕組みで`SpringBoot`を昨年発表したし、来�
 
 * [今年流行るかもしれないDropwizardフレームワークを使ってみる ｜ Developers.IO][lang-ref2]
 
-> **Scala, the good parts**
+### Scala, the good parts
 
 JVM上で動作するオブジェクト指向と関数型のハイブリッドな言語。  
 Twitterのバックエンドに採用されているらしい。個人的には`Play Framework`と`Akka`のイメージが強い。
@@ -170,7 +170,7 @@ Javaライブラリとか、そういうパーツとしてScalaを使うのは�
 
 * [Scalaの現状と課題][lang-ref3]
 
-> **Sinatra**
+### Sinatra
 
 Ruby製のWEBアプリケーション用DSL。  
 うーん、これも今のところWEB+DB PRESSの記事で読んだことあるぐらいで、あまり見かけないなー。

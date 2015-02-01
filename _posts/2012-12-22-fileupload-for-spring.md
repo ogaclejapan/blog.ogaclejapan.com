@@ -12,7 +12,7 @@ tags : [spring]
 * formタグにenctype属性を追加する
 * Controllerのメソッド引数にRequestParamアノテーションを宣言する
 
-## CommonsMultipartResolverのDI定義を追加する
+### CommonsMultipartResolverのDI定義を追加する
 
 MVC系View定義がされているところあたりのDIに以下のBean定義を追加する。  
 
@@ -36,7 +36,7 @@ id属性の`multipartResolver`はSpringさんが認識するための決まり�
 </dependency>
 {% endhighlight %}
 
-## formタグにenctype属性を追加する
+### formタグにenctype属性を追加する
 
 multipartデータであることを伝えるためには`enctype="multipart/form-data"`という属性をformタグに宣言する。
 
@@ -46,7 +46,7 @@ multipartデータであることを伝えるためには`enctype="multipart/for
 </form>
 {% endhighlight %}
 
-## Controllerのメソッド引数にRequestParamアノテーションを宣言する
+### Controllerのメソッド引数にRequestParamアノテーションを宣言する
 
 ファイルアップロードを受け取るメソッドに対して、`MultipartFile`型の引数を加えて`@RequestParam`アノテーションでformタグに定義したnameを指定すればおk。
 

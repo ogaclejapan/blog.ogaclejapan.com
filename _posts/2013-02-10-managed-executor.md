@@ -9,7 +9,7 @@ Androidで一覧画面の使うようなケースではAdapterを使うと思わ
 安易にAsyncTaskでさばくと、非同期部分の負荷次第でスレッドを使い果たしRejectExecutionExceptionが発生する。
 なので、代わりにExecutorServiceを使ってみた。
 
-## newFixedThreadPoolが良さげ
+### newFixedThreadPoolが良さげ
 
 結論から言うと、Executors.newFixedThreadPoolがこの状況では一番適してる気がする。
 内部キューはLinkedBlockingQueueなので、呼び出し側がブロックされるケースは無いし、数値的な根拠はないが実機での操作感が一番良かった…(；´∀｀)
@@ -29,7 +29,7 @@ Executors.newCachecThreadPool()だと、内部キューにSynchronousQueueを使
 
 	getViewはスクロールするたびに大量に呼ばれるので、既に不要なスレッド資源は早めに停止して再利用したい。
 
-## ExecutorServiceライクな自作Wrapperクラス
+### ExecutorServiceライクな自作Wrapperクラス
 
 なので、Executorを拡張して、ExecutorServiceライクな簡易ラッパーを作成してみた。
 

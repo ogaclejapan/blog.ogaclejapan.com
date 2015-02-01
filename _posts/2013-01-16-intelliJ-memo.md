@@ -12,7 +12,7 @@ IntelliJの最新バージョンがAndroidに対応したのでインストー�
 * [IntelliJ IDEA Advent Calendar 2012](http://masanobuimai.hatenablog.jp/entry/20121225/1356362339)
 
 
-## Project設定の表示／変更
+### Project設定の表示／変更
 
 プロジェクトルートを選択した状態で、
 
@@ -22,7 +22,7 @@ IntelliJの最新バージョンがAndroidに対応したのでインストー�
 
 を辿る。
 
-## Dark Themeへの変更
+### Dark Themeへの変更
 
 IntelliJのサイトにも載っているDarkテーマへに切り替えるには、
 
@@ -32,7 +32,7 @@ IntelliJのサイトにも載っているDarkテーマへに切り替えるに�
 
 を辿り、Themeを「Deacula」に変更する。
 
-## Propertiesファイルの日本語表示
+### Propertiesファイルの日本語表示
 
 デフォルトだとマルチバイト系の日本語が表示できない。
 
@@ -44,7 +44,7 @@ IntelliJのサイトにも載っているDarkテーマへに切り替えるに�
 
 右端のボタン上部にある「Transparent native-to-ascii conversion」チェックボックスにチェックをつける。
 
-## 行末カーソルの制御
+### 行末カーソルの制御
 
 どういう思想か不明だが、intelljはデフォルトだと改行以降にもカーソルが移動できる。
 
@@ -56,7 +56,7 @@ IntelliJのサイトにも載っているDarkテーマへに切り替えるに�
 
 を辿り、Vitual Space欄「Allow placement of caret after end of line」チェックボックスのチェックを外す。
 
-## Macの選択ダイアログを変更
+### Macの選択ダイアログを変更
 
 デフォルトだと`/usr`とか選択できない。
 
@@ -75,7 +75,7 @@ IntelliJのサイトにも載っているDarkテーマへに切り替えるに�
 * `ide.mac.filechooser.native` ⇒ チェック外す
 * `ide.mac.filechooser.showhidden.files` ⇒ チェックをつける
 
-## 便利なショートカットキー
+### 便利なショートカットキー
 
 * Quick Definition `[Shift]+[Command]+I`
 

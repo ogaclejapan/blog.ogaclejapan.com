@@ -17,7 +17,7 @@ Androidビルド自動化への道のりで`Gradle Wrapper`が便利過ぎたの
 
 antにもmavenにも無い、チームビルドにもってこいなGradle…素晴らしい(・∀・)ﾆﾔﾆﾔ
 
-## Gradle Wrapperファイルを生成する
+### Gradle Wrapperファイルを生成する
 
 Wrapperファイルを生成するには`build.gradle`ファイルに以下のタスクを追加する。
 
@@ -48,7 +48,7 @@ gradle wrapper
 
 このWrapperファイル毎VCSにコミットしておけば、チームビルドが完成( ´∀｀)人(´∀｀ )
 
-## Gradle Wrapperでビルド
+### Gradle Wrapperでビルド
 
 Gradle環境要らずGradleタスクをビルドするには`gradle`の代わりに`gradlew`を使用する。
 色々ダウンロードが始まり、`.gradle`というフォルダが自動生成されるはず。

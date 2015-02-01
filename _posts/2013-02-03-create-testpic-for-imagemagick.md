@@ -17,7 +17,7 @@ Android開発で画像一覧の動作確認をする際に大量のテスト画�
 
 ImageMagickはWindows用バイナリも公開されているので、おそらく使えるはず。
 
-## ImageMagickのインストール
+### ImageMagickのインストール
 
 homebrewでもパッケージは用意されているが、試してみたら実行時エラーが発生した。  
 なので、普通にMac用のtarをDLしてインストールした。
@@ -25,7 +25,7 @@ homebrewでもパッケージは用意されているが、試してみたら実
 ↓参考サイト  
 <http://www.imagemagick.org/script/binary-releases.php#macosx>
 
-## 既存画像から連番のテスト画像を生成
+### 既存画像から連番のテスト画像を生成
 
 ↓ここのサイトが大変参考になった。  
 [ImageMagickでテスト用画像を大量に作成する／GENDOSU@NET](http://gendosu.jp/archives/1108)

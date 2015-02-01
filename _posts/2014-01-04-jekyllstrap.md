@@ -70,7 +70,7 @@ tags: [jekyll, bootstrap]
     {% endraw %}
 
 
-### （今後実装したいもの）
+### 今後実装したいもの
 
 * ~~**SEO強化（[schema.org][schema-org]の構造化データ対応）**~~
 

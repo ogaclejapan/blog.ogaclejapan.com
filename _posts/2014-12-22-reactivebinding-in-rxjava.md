@@ -171,8 +171,7 @@ __RxBinding__:  [https://github.com/ogaclejapan/RxBinding](https://github.com/og
 もともとは.Netの[ReactiveUI](https://github.com/reactiveui/ReactiveUI)ライクなMVVMバインディングをRxJavaでも作れないかな〜？  
 という感じで作り始めたので、`Tuple`とか`Unit`というClass名は.Netで使われている名前が由来になってます。
 
-### 主なClass
-----
+## 主なClass
 
 ### `Rx<T>`
 
