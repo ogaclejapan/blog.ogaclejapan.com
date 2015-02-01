@@ -1,0 +1,23 @@
+# To generate the tag page will need to be defined here
+android:
+  name: Android
+androvm:
+  name: AndroVM
+bootstrap:
+  name: Bootstrap
+gradle:
+  name: Gradle
+homebrew:
+  name: Homebrew
+intellij:
+  name: IntelliJ
+image_magick:
+  name: ImageMagick
+java:
+  name: Java
+jekyll:
+  name: Jekyll
+radar:
+  name: Technology Radar
+spring:
+  name: Spring Framework

@@ -1,0 +1,51 @@
+# Title of your blog; shows in the header
+name: "ogaclejapan.IO"
+
+# Description of your content (will only be used on Google Search)
+description: "My personal blog about the development"
+
+# Your name. Will show in your footer + sidebar
+author: "ogaclejapan"
+lang: ja
+timezone: Asia/Tokyo
+
+url: "http://ogaclejapan.github.io"
+baseurl: ""
+
+# A short presentation of yourself. Will show in the sidebar, under your name. Best usage would be between 30 to 50 words.
+author-bio: "Server-side Java and Android Software Engineer. Sometimes, I will design for personal products. I use the Sketch app :)"
+
+# Social Accounts (mine, as placeholders)
+
+twitter: ogaclejapan
+github: ogaclejapan
+dribbble:
+instagram:
+googleplus: 115224314007024961072
+
+# Google Analytics (you may want to changes these with yours or even delete :)
+
+#ga_domain: ogaclejapan.github.io
+#ga_tracking_id: UA-37241684-2
+
+# Other (refer to http://jekyllrb.com/docs/home/ for further details on the below)
+
+markdown: redcarpet
+permalink: pretty
+highlighter: pygments
+
+paginate: 10
+paginate_path: "/page/:num"
+
+# SCSS
+
+sass:
+  sass_dir: _scss
+  style: :compressed
+
+# Redcarpet
+redcarpet:
+  extensions: ["strikethrough", "tables", "fenced_code_blocks", "autolink"]
+
+# Exclude Files
+exclude: ["README.md", ".gitignore", "Gemfile", "Gemfile.lock", "art"]
