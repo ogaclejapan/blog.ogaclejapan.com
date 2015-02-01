@@ -54,18 +54,16 @@
     margin: $spacing-l auto;
   }
 
-
   h2 {
     font-style: normal;
-    padding-bottom: $spacing-xs;
-    border-bottom: 2px solid $primary-light;
   }
 
   h3 {
     font-weight: bold;
-    border-left: $spacing-xs solid $primary-light;
-    padding-left: $spacing-xs;
-
+    @media (min-width: 643px) {
+      border-left: $spacing-xs solid $primary-light;
+      padding-left: $spacing-xs;
+    }
   }
 
   h4 {
@@ -75,7 +73,7 @@
 
   h1.page-title {
     font-size: 180%;
-    font-weight: normal;
+    font-weight: bold;
     line-height: 135%;
     font-family: $font-family;
     color: $primary-dark;
