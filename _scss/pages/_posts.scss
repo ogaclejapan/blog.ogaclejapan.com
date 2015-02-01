@@ -54,6 +54,23 @@
     margin: $spacing-l auto;
   }
 
+  h1 {
+    padding-bottom: $spacing-xs * 0.5;
+    border-bottom: 2px solid $primary-light;
+  }
+
+  h1.page-title {
+    font-size: 180%;
+    font-weight: bold;
+    line-height: 135%;
+    font-family: $font-family;
+    color: $primary-dark;
+    text-align: center;
+    margin: 0 0 $spacing-m;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+
   h2 {
     font-style: normal;
   }
@@ -69,18 +86,6 @@
   h4 {
     font-weight: bold;
     text-transform: none;
-  }
-
-  h1.page-title {
-    font-size: 180%;
-    font-weight: bold;
-    line-height: 135%;
-    font-family: $font-family;
-    color: $primary-dark;
-    text-align: center;
-    margin: 0 0 $spacing-m;
-    padding-bottom: none;
-    border-bottom: none;
   }
 
   ul,
