@@ -94,3 +94,32 @@ hr {
   margin: $spacing-xs 0;
   border: 1px solid $primary-light;
 }
+
+table {
+  margin: $spacing-xs 0;
+  padding: 0;
+
+  tr {
+    margin: 0;
+    padding: 0;
+  }
+
+  tr:first-child {
+    border-bottom: 1px solid $border-color;
+  }
+
+  tr th {
+    font-size: 75%;
+    color: $text-secondary;
+    text-align: left;
+    padding: $spacing-xs $spacing-s;
+  }
+
+  tr td {
+    color: $text-secondary;
+    font-size: 75%;
+    margin: 0;
+    padding: $spacing-xs $spacing-s;
+  }
+
+}

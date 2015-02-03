@@ -55,8 +55,7 @@
   }
 
   h1 {
-    padding-bottom: $spacing-xs * 0.5;
-    border-bottom: 2px solid $primary-light;
+    font-weight: normal;
   }
 
   h1.page-title {
@@ -67,17 +66,19 @@
     color: $primary-dark;
     text-align: center;
     margin: 0 0 $spacing-m;
-    padding-bottom: 0;
-    border-bottom: none;
   }
 
   h2 {
     font-style: normal;
+    padding-bottom: $spacing-xs * 0.5;
+    border-bottom: 2px solid $primary-light;
   }
 
   h3 {
+    font-style: italic;
     font-weight: bold;
     @media (min-width: 643px) {
+      font-style: normal;
       border-left: $spacing-xs solid $primary-light;
       padding-left: $spacing-xs;
     }
