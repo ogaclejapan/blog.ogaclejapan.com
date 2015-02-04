@@ -23,12 +23,18 @@
       padding: $spacing-ml $spacing-m;
       background: white;
       transition: all .15s ease-in;
+
       &:active {
         background: $accent;
       }
+
       &:hover {
         background: $accent-light;
-        padding-left: $spacing-m + $spacing-s;
+
+        @media (min-width: 943px) {
+          padding-left: $spacing-m + $spacing-s;
+        }
+
         &::after {
           content:'\2192';
           margin-left: $spacing-xs;
@@ -37,9 +43,7 @@
             margin: 0;
           }
         }
-      }
-      @media (max-width: 942px) {
-        padding: $spacing-m $spacing-m;
+
       }
       p {
         display: inline;

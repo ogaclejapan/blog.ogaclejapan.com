@@ -69,13 +69,12 @@
   }
 
   h2 {
-    font-style: normal;
     padding-bottom: $spacing-xs * 0.5;
     border-bottom: 2px solid $primary-light;
   }
 
   h3 {
-    font-style: italic;
+    font-style: normal;
     font-weight: bold;
     @media (min-width: 643px) {
       font-style: normal;
