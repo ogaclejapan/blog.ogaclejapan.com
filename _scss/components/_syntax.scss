@@ -5,7 +5,7 @@
   border: 1px solid $border-color;
   border-radius: 3px;
   padding: $spacing-s $spacing-s;
-  background-color: $smoke-color;
+  background-color: white; //$smoke-color;
   font-size: 80%;
   margin: $spacing-m auto;
   overflow: scroll;
@@ -17,7 +17,6 @@ code {
   font-size: 100%;
   line-height: 1.5;
 }
-
 
 .highlight .hll { background-color: #ffffcc }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
