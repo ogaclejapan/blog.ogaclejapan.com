@@ -29,6 +29,7 @@ is_blog: true
       {% endfor %}
     </ul>
     {% endif %}
+    <h6><a href="#top">Back to Top</a></h6>
     {% if page.next %}
       <a rel="next" href="{{ site.baseurl }}{{ page.next.url }}" id="next">
         <span class="nav-title nav-title-next">newer</span> &rarr;
@@ -39,6 +40,5 @@ is_blog: true
         &larr; <span class="nav-title nav-title-prev">older</span>
       </a>
     {% endif %}
-
   </article>
 </section>
