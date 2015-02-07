@@ -1,12 +1,11 @@
-// Pygments CSS
-// https://github.com/richleland/pygments-css/blob/master/github.css
+// Solarized Light Pygments CSS / Jekyll
+// https://gist.github.com/edwardhotchkiss/2005058
 
 .highlight {
   border: 1px solid $border-color;
   border-radius: 3px;
   padding: $spacing-s $spacing-s;
-  background-color: white; //$smoke-color;
-  //font-size: 80%;
+  background-color: white;
   margin: $spacing-m auto;
   //overflow: scroll;
   color: $text-secondary;

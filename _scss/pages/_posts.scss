@@ -88,13 +88,6 @@
     text-transform: none;
   }
 
-  a {
-    color: darken($primary, 20%);
-    &:hover {
-      color: darken($primary-dark, 20%);
-    }
-  }
-
   ul,
   ol {
     margin: 0 0 0 2em;

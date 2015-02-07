@@ -220,12 +220,12 @@ public class RxActivity<T extends Activity> extends RxWeakRef<T> {
 
 /* Rxの使い方 */
 
-//どのクラスも`RxXX.of(T)`staticメソッドで既存のオブジェクトから変換できます。
+//どのクラスも'RxXX.of(T)'staticメソッドで既存のオブジェクトから変換できます。
 Rx<HogeActivity> mThisActivity = RxActivity.of(this);
 Rx<HogeFragment> mThisFragment = RxFragment.of(fragment);
 Rx<HogeView> mHogeView = RxView.of(view);
 
-//RxViewのみButterKnifeみたいに`RxView.findById(..)`で直接View/Activityから取得し変換することもできます。
+//RxViewのみButterKnifeみたいに'RxView.findById(..)'で直接View/Activityから取得し変換することもできます。
 Rx<TextView> mTextView = RxView.findById(activity, R.id.text);
 Rx<ImageView> mImageView = RxView.findById(view, R.id.image);
 
@@ -252,21 +252,21 @@ BehaviorSubjectは初期値をもつことができ、最後に更新された�
 
 /* RxPropertyの使い方 */
 
-//RxProperty\<E>は初期値を制御できます
+//RxProperty<E>は初期値を制御できます
 RxProperty<String> mHoge = RxProperty.of("hoge");
 RxProperty<String> mHoge = RxProperty.create(); //初期値なし
 
-//RxProperty\<E>はpull型の`E get()`とpush型の`Observable<E> asObservable()`メソッドを公開しています
+//RxProperty<E>はpull型の'E get()'とpush型の'Observable<E> asObservable()'メソッドを公開しています
 String hoge = mHoge.get();
 Observable<String> hoge = mHoge.asObservable();
 
-//`set(E)`メソッドで値の更新します
+//'set(E)'メソッドで値の更新します
 mHoge.set("age") //mHoge.get() => "age"
 
 //値を更新できない参照用のRxReadOnlyProperty<E>をベースClassにもってます
 RxReadOnlyProperty<E> mNotWritableHoge = mHoge;
 
-//RxPropertyは他のRxPropertyや`Observable<E>`からデータを連結することもできます
+//RxPropertyは他のRxPropertyや'Observable<E>'からデータを連結することもできます
 RxProperty<String> mAge = RxProperty.of("age");
 Subscription s = mHoge.bind(mAge); //mHoge.get() => "age"
 RxProperty<Date> mNow = RxProperty.of(new Date());
@@ -289,7 +289,7 @@ RxEvent<String> mOnTextChanged = RxEvent.create();
 //post(E)メソッドで値を通知します
 mOnTextChanged.post("hoge");
 
-//値を保持していないのでpush型の`E asObservable()`メソッドしかありません
+//値を保持していないのでpush型の'E asObservable()'メソッドしかありません
 Observable<String> mHogeObservable = mOnTextChanged.asObservable();
 
 //RxPropertyと同様に他のObservableなどからデータを連結通知させることができます
