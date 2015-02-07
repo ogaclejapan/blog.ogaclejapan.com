@@ -88,6 +88,13 @@
     text-transform: none;
   }
 
+  a {
+    color: darken($primary, 20%);
+    &:hover {
+      color: darken($primary-dark, 20%);
+    }
+  }
+
   ul,
   ol {
     margin: 0 0 0 2em;
@@ -130,8 +137,12 @@
   }
 
   .page-tags {
-    margin: 0 0 $spacing-s 0;
-    padding: $spacing-s 0;
+    padding: $spacing-m 0 $spacing-sm;
+
+    ul {
+      margin: 0;
+      padding: 0;
+    }
 
     li {
       display: inline-block;
@@ -158,6 +169,19 @@
     }
 
   } // end .post-tags
+
+  .back-to-top {
+    margin: 0 0 $spacing-l;
+
+    a {
+      color: $text-secondary;
+
+      &:hover {
+        color: $text-primary;
+      }
+    }
+
+  } // end .back-to-top
 
 } // end #single-wrap
 

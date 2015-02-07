@@ -86,7 +86,7 @@ ol li { list-style-type: decimal; }
 a {
   color: $primary;
   &:hover {
-    color: darken($primary, 20%);
+    color: $primary-dark;
   }
 }
 

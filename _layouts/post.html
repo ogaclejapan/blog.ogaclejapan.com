@@ -17,19 +17,21 @@ is_blog: true
       {{ content }}
     </div>
     {% if page.tags.size > 0 %}
-    <ul class="page-tags">
-      {% for tag in page.tags %}
-      <li>
-        {% if site.data.tags[tag] %}
-        <a href="{{ site.baseurl }}/tags/{{ tag }}">{{ site.data.tags[tag].name }}</a>
-        {% else %}
-        <a href="javascript:void(0);" class="disabled">{{ tag }}</a>
-        {% endif %}
-      </li>
-      {% endfor %}
-    </ul>
+    <div class="page-tags">
+      <ul>
+        {% for tag in page.tags %}
+        <li>
+          {% if site.data.tags[tag] %}
+          <a href="{{ site.baseurl }}/tags/{{ tag }}">{{ site.data.tags[tag].name }}</a>
+          {% else %}
+          <a href="javascript:void(0);" class="disabled">{{ tag }}</a>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
     {% endif %}
-    <h6><a href="#top">Back to Top</a></h6>
+    <h6 class="back-to-top"><a href="#top">Back to Top</a></h6>
     {% if page.next %}
       <a rel="next" href="{{ site.baseurl }}{{ page.next.url }}" id="next">
         <span class="nav-title nav-title-next">newer</span> &rarr;
