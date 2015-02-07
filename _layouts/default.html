@@ -18,7 +18,7 @@
       <title>{% if page.title %} {{ page.title }} | {% endif %}{{ site.name }}</title>
       {% include link_your_font.html %}
       <link rel="stylesheet" type="text/css" href="{{ site.baseurl| split: '/' | join:'/' }}/css/main.css" />
-      <link href="atom.xml" type="application/atom+xml" rel="alternate" title="Site ATOM Feed">
+      <link href="{{ site.url }}{{ site.baseurl }}/feed.xml" type="application/rss+xml" rel="alternate" title="RSS2.0">
       <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico">
 
       {% if page.is_blog %}
@@ -67,11 +67,9 @@
         <ul>
           <li><a href="{{ site.baseurl }}/">Home</a></li>
           <li><a href="{{ site.baseurl }}/tags/">Tags</a></li>
-          <li><a href="{{ site.baseurl }}/atom.xml">Atom</a></li>
         </ul>
       </nav>
     </div>
-
 
     <div class="site-wrapper">
 

@@ -5,4 +5,4 @@ My personal blog about the development.
 
 <http://ogaclejapan.com/>
 
-Using the [materi for jekyll](http://github.com/ogaclejapan/materi-for-jekyll) theme.
+Using the [Materi for jekyll](http://github.com/ogaclejapan/materi-for-jekyll) theme.
