@@ -2,6 +2,7 @@
 layout: post
 title: Gradle環境要らずのGradleチームビルド
 tags : [gradle]
+redirect_from: /tools/2013/01/04/gradle-wrapper/
 ---
 
 Androidビルド自動化への道のりで`Gradle Wrapper`が便利過ぎたので、メモしておく。

@@ -2,6 +2,7 @@
 layout: post
 title: Adapter#getView(...)での非同期実行を管理する
 tags : [android]
+redirect_from: /languages/2013/02/10/managed-executor/
 ---
 
 Androidで一覧画面の使うようなケースではAdapterを使うと思われるが、このgetViewが非常に曲者で参った。。

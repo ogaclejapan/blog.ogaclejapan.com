@@ -2,6 +2,7 @@
 layout: post
 title: Bootstrap臭のする静的サイトが作れるJekyllテンプレ
 tags: [jekyll, bootstrap]
+redirect_from: /tools/2014/01/04/jekyllstrap/
 ---
 
 新年あけましておめでとうございます。 彡^･∋★A Happy New Year★∈･^ミ

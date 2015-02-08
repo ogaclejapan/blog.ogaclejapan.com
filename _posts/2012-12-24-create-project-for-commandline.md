@@ -2,6 +2,7 @@
 layout: post
 title: コマンドラインからAndroidプロジェクトを生成する
 tags : [android]
+redirect_from: /platforms/2012/12/24/create-project-for-commandline/
 ---
 
 AndroidのビルドツールGradle化でコマンドラインツールからプロジェクトを生成する機会があったので、忘れぬうちにメモ。

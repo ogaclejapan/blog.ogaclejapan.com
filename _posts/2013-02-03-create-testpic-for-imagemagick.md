@@ -2,6 +2,7 @@
 layout: post
 title: ImageMagickで既存画像からテスト画像を大量生成する
 tags : [image_magick]
+redirect_from: /tools/2013/02/03/create-testpic-for-imagemagick/
 ---
 
 Android開発で画像一覧の動作確認をする際に大量のテスト画像がほしくなってしまった(´・ω・｀)  

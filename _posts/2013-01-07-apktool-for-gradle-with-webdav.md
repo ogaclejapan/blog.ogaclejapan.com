@@ -2,6 +2,7 @@
 layout: post
 title: Gradleを使ったWin/Mac対応のapkインストールツール
 tags : [android, gradle]
+redirect_from: /tools/2013/01/07/apktool-for-gradle-with-webdav/
 ---
 
 [Androidアプリ開発de継続的インテグレーション]({{ site.baseurl }}{% post_url 2013-01-06-ci-for-androidapps-with-webdav %})

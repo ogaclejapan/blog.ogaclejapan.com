@@ -2,6 +2,7 @@
 layout: post
 title: AndroidエミュレータはAndroVM一択
 tags : [android, androvm]
+redirect_from: /tools/2013/03/09/androvm-as-android-emulator/
 ---
 
 

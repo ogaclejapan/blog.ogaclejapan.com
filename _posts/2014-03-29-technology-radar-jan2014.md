@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Technology Radar - Jan 2014
-tags : [radar]
+tags: [radar]
+redirect_from: /insights/2014/03/29/technology-radar-jan2014/
 ---
 
 最新動向の発表ﾏﾀﾞｧ-? （･∀･ ）っ/凵⌒☆ﾁﾝﾁﾝ

@@ -2,6 +2,7 @@
 layout: post
 title: Technology Radar - May 2013
 tags : [radar]
+redirect_from: /insights/2013/06/09/technology-radar-may2013/
 ---
 
 著者でも有名なマーチンファウラーさん率いる[Thoughtworks社](http://www.thoughtworks.com/)から最新の技術動向が発表されていました＼(^O^)／

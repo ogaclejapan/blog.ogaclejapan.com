@@ -49,3 +49,8 @@ redcarpet:
 
 # Exclude Files
 exclude: ["README.md", ".gitignore", "Gemfile", "Gemfile.lock", "art"]
+
+# Gems
+gems:
+  - jekyll-redirect-from
+  

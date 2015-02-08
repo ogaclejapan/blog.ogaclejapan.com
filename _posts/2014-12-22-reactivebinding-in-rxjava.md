@@ -2,6 +2,7 @@
 layout: post
 title: RxJavaでリアクティブなデータバインディング
 tags : [android, java]
+redirect_from: /languages/2014/12/22/reactivebinding-in-rxjava/
 ---
 
 この記事は [CyberAgent エンジニア Advent Calendar 2014][ca_advent_calendar] 22日目の投稿です。

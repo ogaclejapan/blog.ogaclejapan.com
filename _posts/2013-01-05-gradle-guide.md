@@ -2,6 +2,7 @@
 layout: post
 title: Gradleの基本的なスクリプトコード集
 tags : [gradle]
+redirect_from: /tools/2013/01/05/gradle-guide/
 ---
 
 Gradleでよく使う基本的なスクリプトコードをメモしておく。

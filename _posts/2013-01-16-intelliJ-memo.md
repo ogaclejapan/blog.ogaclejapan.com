@@ -2,6 +2,7 @@
 layout: post
 title: IntelliJ IDEAに関するメモ書き
 tags : [intellij]
+redirect_from: /tools/2013/01/16/intelliJ-memo/
 ---
 
 IntelliJの最新バージョンがAndroidに対応したのでインストールしてみた。  

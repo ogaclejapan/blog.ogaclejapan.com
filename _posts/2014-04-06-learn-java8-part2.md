@@ -2,6 +2,7 @@
 layout: post
 title: 学ぶぜ、Java8！！ part2
 tags: [java]
+redirect_from: /languages/2014/04/06/learn-java8-part2/
 ---
 
 さて、Java8を動かすためのMaven雛形を前回作ったので、

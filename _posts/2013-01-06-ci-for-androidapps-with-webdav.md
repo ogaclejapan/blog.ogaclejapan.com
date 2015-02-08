@@ -2,6 +2,7 @@
 layout: post
 title: Androidアプリ開発de継続的インテグレーション
 tags : [android, gradle]
+redirect_from: /platforms/2013/06/02/test-for-commandline/
 ---
 
 CentOS上にAndroid自動化ビルド環境と簡易apk配布用webdav環境を構築したので、一応メモしておく  

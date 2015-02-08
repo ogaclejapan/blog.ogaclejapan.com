@@ -2,6 +2,7 @@
 layout: post
 title: Homebrewでバージョンを指定してインストール
 tags : [homebrew]
+redirect_from: /tools/2012/12/23/homebrew-versions/
 ---
 
 androidのgradleビルドを調べてたら、
