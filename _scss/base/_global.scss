@@ -99,13 +99,13 @@ table {
   margin: $spacing-xs 0;
   padding: 0;
 
+  thead {
+    border-bottom: 1px solid $border-color;
+  }
+
   tr {
     margin: 0;
     padding: 0;
-  }
-
-  tr:first-child {
-    border-bottom: 1px solid $border-color;
   }
 
   tr th {
