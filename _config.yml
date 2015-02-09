@@ -9,7 +9,7 @@ author: "ogaclejapan"
 lang: ja
 timezone: Asia/Tokyo
 
-url: "http://ogaclejapan.com"
+url: "http://www.ogaclejapan.com"
 baseurl: ""
 
 # A short presentation of yourself. Will show in the sidebar, under your name. Best usage would be between 30 to 50 words.
@@ -53,4 +53,3 @@ exclude: ["README.md", ".gitignore", "Gemfile", "Gemfile.lock", "art"]
 # Gems
 gems:
   - jekyll-redirect-from
-  
