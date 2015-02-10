@@ -25,7 +25,7 @@ googleplus: 115224314007024961072
 
 # Google Analytics (you may want to changes these with yours or even delete :)
 
-ga_domain: auto
+ga_domain: www.ogaclejapan.com
 ga_tracking_id: UA-37241684-3
 
 # Other (refer to http://jekyllrb.com/docs/home/ for further details on the below)
