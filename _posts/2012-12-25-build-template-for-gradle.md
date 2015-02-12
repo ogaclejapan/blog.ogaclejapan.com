@@ -2,7 +2,9 @@
 layout: post
 title: GradleでAndroidを継続的インテグレーションするための雛形
 tags : [android, gradle]
-redirect_from: /tools/2012/12/25/build-template-for-gradle/
+redirect_from:
+  - /tools/2012/12/25/build-template-for-gradle/
+  - /android/2012/12/25/build-template-for-gradle/
 ---
 
 GradleでAndroidビルドを検証したので雛形をUPしておく。
