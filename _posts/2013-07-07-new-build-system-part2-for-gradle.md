@@ -2,7 +2,9 @@
 layout: post
 title: Androidの新ビルドツール「Android Gradle Plugin」その２
 tags : [android, gradle]
-redirect_from: /tools/2013/07/07/new-build-system-part2-for-gradle/
+redirect_from:
+  - /tools/2013/07/07/new-build-system-part2-for-gradle/
+  - /android/2013/07/07/new-build-system-part2-for-gradle/
 ---
 
 前回の[続き]({{ site.baseurl }}{% post_url 2013-06-23-new-build-system-for-gradle %})を書くの巻。
