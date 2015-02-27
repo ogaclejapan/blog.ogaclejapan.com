@@ -2,7 +2,9 @@
 layout: post
 title: SpringMVCでのファイルアップロード
 tags : [spring]
-redirect_from: /frameworks/2012/12/22/fileupload-for-spring/
+redirect_from: 
+  - /frameworks/2012/12/22/fileupload-for-spring/
+  - /java/2012/12/22/fileupload-for-spring/
 ---
 
 最近ファイルアップロードを使う機会があったので忘れぬうちにメモしておく。
