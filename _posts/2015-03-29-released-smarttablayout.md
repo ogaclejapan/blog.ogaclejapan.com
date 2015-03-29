@@ -38,13 +38,13 @@ build.gradleにライブラリを追加します
 ```
 
 dependencies {
-    compile 'com.ogaclejapan.smarttablayout.library:1.0.0@aar'
+    compile 'com.ogaclejapan.smarttablayout:library:1.0.0@aar'
 
     //Optional
-    compile 'com.ogaclejapan.smarttablayout.utils-v4:1.0.0@aar'
+    compile 'com.ogaclejapan.smarttablayout:utils-v4:1.0.0@aar'
 
     //Optional
-    compile 'com.ogaclejapan.smarttablayout.utils-v13:1.0.0@aar'
+    compile 'com.ogaclejapan.smarttablayout:utils-v13:1.0.0@aar'
 }
 
 ```

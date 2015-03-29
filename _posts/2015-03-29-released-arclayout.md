@@ -25,7 +25,7 @@ build.gradleにライブラリを追加します
 
 ```
 dependencies {
-    compile 'com.ogaclejapan.arclayout.library:1.0.0@aar'
+    compile 'com.ogaclejapan.arclayout:library:1.0.0@aar'
 }
 ```
 
