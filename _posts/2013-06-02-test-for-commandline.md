@@ -2,7 +2,9 @@
 layout: post
 title: コマンドラインからAndroid JUnitテストを実行する
 tags : [android]
-redirect_from: /platforms/2013/06/02/test-for-commandline/
+redirect_from: 
+  - /platforms/2013/06/02/test-for-commandline/
+  - /android/2013/06/02/test-for-commandline/
 ---
 
 AndroidのJUnitテストをコマンドラインから実行する方法を忘れぬうちにメモしておく。

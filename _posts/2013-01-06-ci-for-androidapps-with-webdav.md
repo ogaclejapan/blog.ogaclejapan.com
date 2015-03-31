@@ -2,7 +2,9 @@
 layout: post
 title: Androidアプリ開発de継続的インテグレーション
 tags : [android, gradle]
-redirect_from: /techniques/2013/01/06/ci-for-androidapps-with-webdav/
+redirect_from: 
+  - /techniques/2013/01/06/ci-for-androidapps-with-webdav/
+  - /android/2013/01/06/ci-for-androidapps-with-webdav/
 ---
 
 CentOS上にAndroid自動化ビルド環境と簡易apk配布用webdav環境を構築したので、一応メモしておく  

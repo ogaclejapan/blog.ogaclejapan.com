@@ -2,7 +2,9 @@
 layout: post
 title: Androidの新ビルドツール「Android Gradle Plugin」
 tags : [android, gradle]
-redirect_from: /tools/2013/06/23/new-build-system-for-gradle/
+redirect_from: 
+  - /tools/2013/06/23/new-build-system-for-gradle/
+  - /android/2013/06/23/new-build-system-for-gradle/
 ---
 
 2013年5月、ついに…
