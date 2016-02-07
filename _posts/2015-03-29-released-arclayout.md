@@ -8,7 +8,7 @@ image:  'https://raw.githubusercontent.com/ogaclejapan/ArcLayout/master/art/icon
 昨年末に公開したQiita非公式クライアント「[Qiitanium](https://github.com/ogaclejapan/Qiitanium)」
 のデザイン刷新版v0.2に実装するために夜な夜な作っていたライブラリ第一号「ArcLayout」をようやくリリースしました。
 
-https://github.com/ogaclejapan/ArcLayout
+<https://github.com/ogaclejapan/ArcLayout>
 
 ↓こんな感じで弧に沿ってビューを配置することができます
 ![Arc Layout Demo1](https://raw.githubusercontent.com/ogaclejapan/ArcLayout/master/art/demo1.gif)
@@ -89,7 +89,7 @@ dependencies {
 `arc_origin`の全パターンはデモアプリで確認できます。
 他に指定できるカスタム属性などはGitHubページを参照ください。
 
-https://github.com/ogaclejapan/ArcLayout
+<https://github.com/ogaclejapan/ArcLayout>
 
 気に入ったらGitHubスターをポチッとお願いします
 

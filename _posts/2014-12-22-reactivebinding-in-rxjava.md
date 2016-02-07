@@ -30,16 +30,7 @@ Androiderへ型変換した直後にテックレポートを発表する機会�
 
 …ということで「__今日というよき日__」にリリースしましたーー！！　(　；∀；) ﾅﾝﾃｲｲﾋﾀﾞﾅｰ
 
-<a href="https://play.google.com/store/apps/details?id=com.ogaclejapan.qiitanium">
-<img alt="Android app on Google Play" class="fixed"
-src="https://developer.android.com/images/brand/ja_app_rgb_wo_60.png" />
-</a>
-
-*このアプリは`Android 5.x(Lollipop)`のみ対応ですのでご注意ください*
-
-<a href="https://github.com/ogaclejapan/Qiitanium">
-![Image](https://raw.githubusercontent.com/ogaclejapan/Qiitanium/master/art/qiitanium_logo.png)
-</a>
+[![Image](https://raw.githubusercontent.com/ogaclejapan/Qiitanium/master/art/qiitanium_logo.png)](https://github.com/ogaclejapan/Qiitanium)
 
 Githubでコードも公開してますので、ぜひ興味のある方は見てください。
 
@@ -393,8 +384,7 @@ Material…　…　…Bootstrapとかに( ；∀；)
 [rxweakref.java]: https://github.com/ogaclejapan/RxBinding/raw/master/rxbinding/src/main/java/com/ogaclejapan/rx/binding/RxWeakRef.java
 [rxactivity.java]: https://github.com/ogaclejapan/RxBinding/raw/master/rxbinding/src/main/java/com/ogaclejapan/rx/binding/RxActivity.java
 [rxfragment.java]: https://github.com/ogaclejapan/RxBinding/raw/master/rxbinding/src/main/java/com/ogaclejapan/rx/binding/RxFragment.java
-[rxsupportfragment.java]:
-https://github.com/ogaclejapan/RxBinding/raw/master/rxbinding/src/main/java/com/ogaclejapan/rx/binding/RxSupportFragment.java
+[rxsupportfragment.java]: https://github.com/ogaclejapan/RxBinding/raw/master/rxbinding/src/main/java/com/ogaclejapan/rx/binding/RxSupportFragment.java
 [rxview.java]: https://github.com/ogaclejapan/RxBinding/raw/master/rxbinding/src/main/java/com/ogaclejapan/rx/binding/RxView.java
 [rxproperty.java]: https://github.com/ogaclejapan/RxBinding/raw/master/rxbinding/src/main/java/com/ogaclejapan/rx/binding/RxProperty.java
 [rxevent.java]: https://github.com/ogaclejapan/RxBinding/raw/master/rxbinding/src/main/java/com/ogaclejapan/rx/binding/RxEvent.java

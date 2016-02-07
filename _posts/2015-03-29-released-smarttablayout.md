@@ -8,10 +8,10 @@ image:  'https://raw.githubusercontent.com/ogaclejapan/SmartTabLayout/master/art
 昨年末に公開したQiita非公式クライアント「[Qiitanium](https://github.com/ogaclejapan/Qiitanium)」
 のデザイン刷新版v0.2に実装するために夜な夜な作っていたライブラリ第二号「SmartTabLayout」をようやくリリースしました。
 
-https://github.com/ogaclejapan/SmartTabLayout
+<https://github.com/ogaclejapan/SmartTabLayout>
 
 Google SamplesとしてGitHubに公開されているの
-「android-SlidingTabBasic」(https://github.com/googlesamples/android-SlidingTabsBasic)
+「[android-SlidingTabBasic](https://github.com/googlesamples/android-SlidingTabsBasic)」
 をベースにViewPagerStrip系で一番有名な「PagerSlidingTabStrip」と同等の機能を実装した感じです。
 
 独自な機能として、Indicatorの挙動を多少カスタマイズできます。デフォルトでは２種類組み込んでます。
@@ -156,7 +156,7 @@ PagerSlidingTabStripと同等の機能は実装したつもりです。
 
 指定できるカスタム属性の詳細はGitHubページを参照ください。
 
-https://github.com/ogaclejapan/SmartTabLayout
+<https://github.com/ogaclejapan/SmartTabLayout>
 
 気に入ったらGitHubスターをポチッとお願いします
 

@@ -236,7 +236,7 @@ public class CollectionsTest {
 
 ### Optional\<T\>
 
-今まで`if (foo != null && foo.equals("hoge")) {..}`とか`bar = (foo != null) ? foo.getBar() : null`、
+今まで `if (foo != null && foo.equals("hoge")) {..}` とか`bar = (foo != null) ? foo.getBar() : null`、
 みたいなコードを何度書いたことか…素晴らしい進化だ(´；ω；｀)ﾌﾞﾜｯ
 ライブラリとかコアな部分の内部で使うと凄く幸せになれそうな気がしてる。
 
@@ -367,4 +367,5 @@ public class OptionalTest {
 
 試したコードはGitHubに上げてありますので、気になる方はcloneでもして実行してみてくださいな。
 
-https://github.com/ogaclejapan/java-samples/tree/java8
+<https://github.com/ogaclejapan/java-samples/tree/java8>
+

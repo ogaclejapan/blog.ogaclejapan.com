@@ -8,9 +8,7 @@ image:  'https://raw.githubusercontent.com/ogaclejapan/materi-for-jekyll/master/
 昨年末、久々にブログを書いてみたら自ら作った[Bootstrap臭のテーマ][jekyllstrap]に飽きてしまったので、
 巷で流行りのマテリアルデザイン風なカラーリングで[Jekyll][jekyll]のテーマを作ってみました。
 
-<a href="https://github.com/ogaclejapan/materi-for-jekyll">
-![art][materi-art]
-</a>
+[![art][materi-art]]("https://github.com/ogaclejapan/materi-for-jekyll")
 
 
 ## Materi for Jekyll
@@ -139,3 +137,4 @@ Jekyllではプラグインを使わないとファイルを生成できない�
 [webfont-ubuntu-mono]: https://www.google.com/fonts/specimen/Ubuntu+Mono
 
 [materi-art]: https://raw.githubusercontent.com/ogaclejapan/materi-for-jekyll/master/art/materi_device_art.png
+

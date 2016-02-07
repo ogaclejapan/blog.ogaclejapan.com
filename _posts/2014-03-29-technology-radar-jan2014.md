@@ -43,7 +43,7 @@ Technology Radarでは次の４部門に大きく技術を分類し、１部門�
 
 ## <span id="techniques" class="anchor-hack"></span>Techniques
 
-http://www.thoughtworks.com/radar/#/techniques
+<http://www.thoughtworks.com/radar/#/techniques>
 
 ADOPTに入ったのは次の５つ。
 
@@ -81,7 +81,7 @@ ADOPTに入ったのは次の５つ。
 
 ## <span id="tools" class="anchor-hack"></span>Tools
 
-http://www.thoughtworks.com/radar/#/tools
+<http://www.thoughtworks.com/radar/#/tools>
 
 ADOPTに入ったのは次の２つ。
 
@@ -99,7 +99,7 @@ JavaScriptの依存するライブラリを一元管理する。Twitter社の`Bo
 
 ## <span id="platforms" class="anchor-hack"></span>Platforms
 
-http://www.thoughtworks.com/radar/#/platforms
+<http://www.thoughtworks.com/radar/#/platforms>
 
 ADOPTに入ったのは次の５つ。
 
@@ -144,7 +144,7 @@ JSON形式なのでNode.jsのバックエンドとしてよく使われている
 
 ## <span id="languages-and-frameworks" class="anchor-hack"></span>Languages & Frameworks
 
-http://www.thoughtworks.com/radar/#/languages-and-frameworks
+<http://www.thoughtworks.com/radar/#/languages-and-frameworks>
 
 ADOPTに入ったのは次の4つ。
 
@@ -200,3 +200,4 @@ Ruby製のWEBアプリケーション用DSL。
 [lang-ref2]: http://dev.classmethod.jp/server-side/java/dropwizard/
 [lang-ref3]: http://www.slideshare.net/kmizushima/scala-12334929
 [lang-ref4]: http://it.typeac.jp/article/show/5
+
