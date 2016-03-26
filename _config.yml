@@ -1,19 +1,19 @@
 # Title of your blog; shows in the header
-name: "ogaclejapan.IO"
+name: "|ω・) Interest-Driven Blogging"
 
 # Description of your content (will only be used on Google Search)
-description: "My personal blog about the development"
+description: "ogaclejapan's blog about the development"
 
 # Your name. Will show in your footer + sidebar
 author: "ogaclejapan"
 lang: ja
 timezone: Asia/Tokyo
 
-url: "http://www.ogaclejapan.com"
+url: "http://blog.ogaclejapan.com"
 baseurl: ""
 
 # A short presentation of yourself. Will show in the sidebar, under your name. Best usage would be between 30 to 50 words.
-author-bio: "Server-side Java and Android Software Engineer. Sometimes, I will design for personal products. I use the Sketch app :)"
+author-bio: "Android Software Engineer at AbemaTV"
 
 # Social Accounts (mine, as placeholders)
 twitter: ogaclejapan
@@ -23,8 +23,10 @@ instagram:
 googleplus: 115224314007024961072
 
 # Google Analytics (you may want to changes these with yours or even delete :)
-ga_domain: www.ogaclejapan.com
-ga_tracking_id: UA-37241684-3
+ga_tracking_id: UA-37241684-4
+
+# Handling Reading
+exclude: ["README.md", ".gitignore", "Gemfile", "Gemfile.lock", "vendor", "art", ".travis.yml"]
 
 # Plugins
 gems: [jekyll-redirect-from, jekyll-paginate]
@@ -38,15 +40,12 @@ permalink: pretty
 paginate: 10
 paginate_path: "/page/:num"
 
-# SCSS
-sass:
-  sass_dir: _scss
-  style: :compressed
-
 # Markdown Processors
 kramdown:
   input: GFM
 
-# Exclude Files
-exclude: ["README.md", ".gitignore", "Gemfile", "Gemfile.lock", "art"]
+# SCSS
+sass:
+  sass_dir: _scss
+  style: :compressed
 

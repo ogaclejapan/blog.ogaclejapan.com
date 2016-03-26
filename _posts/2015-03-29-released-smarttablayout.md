@@ -49,7 +49,7 @@ dependencies {
 
 ```
 
-※OptionalではViewPagerを使う上で必ず実装が必要になる[PagerAdapter](http://developer.android.com/reference/android/support/v4/view/PagerAdapter.html)の実装クラスを別ライブラリとして提供しています。
+※OptionalではViewPagerを使う上で必ず実装が必要になる[PagerAdapter](http://developer.android.com/reference/android/support/v4/view/PagerAdapter.html)の実装クラスを別ライブラリとして提供しています。
 経験的には大体同じような実装コードをみんな書いてる気がするので、特に理由がなければ一緒に使うことをオススメします。
 
 ### Step2
